@@ -1,0 +1,18 @@
+{
+    "celestial_bodies" : {
+        "earth":{
+            "g":9.81
+        }
+        ,"mars":{
+            "g":5
+        }
+        ,"alien":{
+            "g":7
+        }
+    },
+    "thrusters" : {
+        "atmospheric":{
+            "thrust_max":500
+        }
+    }
+}
