@@ -2,17 +2,32 @@
     "celestial_bodies" : {
         "earth":{
             "g":9.81
+            ,"radius":1
+            ,"limitAltitude":2.0
+            ,"hills":0.12
         }
         ,"mars":{
-            "g":5
+            "g":8.829
+            ,"radius":120
+            ,"limitAltitude":2.0
+            ,"hills":0.12
         }
         ,"alien":{
-            "g":7
+            "g":9.81
+            ,"radius":1
+            ,"limitAltitude":2.0
+            ,"hills":0.12
         }
     },
-    "thrusters" : {
-        "atmospheric":{
-            "thrust_max":500
+    "blocks" : {
+        "large grid" : {}
+        ,"small grid" : {
+            "thrusters" : {
+                "atmospheric_small":{
+                    "thrust_max": {"value":80, "unit":"kN"}
+                    ,"mass": {"value":539, "unit":"kg"}
+                }
+            }
         }
     }
 }
