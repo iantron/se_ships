@@ -18,16 +18,5 @@
             ,"limitAltitude":2.0
             ,"hills":0.12
         }
-    },
-    "blocks" : {
-        "large grid" : {}
-        ,"small grid" : {
-            "thrusters" : {
-                "atmospheric_small":{
-                    "thrust_max": {"value":80, "unit":"kN"}
-                    ,"mass": {"value":539, "unit":"kg"}
-                }
-            }
-        }
     }
 }

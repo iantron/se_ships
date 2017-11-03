@@ -1,0 +1,29 @@
+{
+    "thruster_atmospheric_small":{
+        "large_grid":{}
+        ,"small_grid":{
+            "thrust_max": {"value":80, "unit":"kN"}
+            ,"mass": {"value":539, "unit":"kg"}
+        }
+    }
+    ,"cargo_medium":{
+        "small_grid":{
+            "capacity":{"value":3375, "unit":"L"}
+        }
+    }
+    ,"cockpit":{
+        "small_grid":{
+            "capacity":{"value":0, "unit":"L"}
+        }
+    }
+    ,"connector":{
+        "small_grid":{
+            "capacity":{"value":1152, "unit":"L"}
+        }
+    }
+    ,"drill":{
+        "small_grid":{
+            "capacity":{"value":3375, "unit":"L"}
+        }
+    }
+}
